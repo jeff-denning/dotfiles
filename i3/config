@@ -14,9 +14,9 @@ set $mod Mod4
 # App shortcuts
 bindsym $mod+Shift+Return exec firefox
 bindsym $mod+Return exec alacritty
-bindsym $mod+Ctrl+1 exec --no-startup-id bash /home/jeff/.screenlayout/laptop.sh
-bindsym $mod+Ctrl+2 exec --no-startup-id bash /home/jeff/.screenlayout/clamshell.sh
-bindsym $mod+Ctrl+3 exec --no-startup-id bash /home/jeff/.screenlayout/multi.sh
+bindsym $mod+Ctrl+1 exec --no-startup-id bash /home/jeff/.config/.screenlayout/laptop.sh
+bindsym $mod+Ctrl+2 exec --no-startup-id bash /home/jeff/.config/.screenlayout/clamshell.sh
+bindsym $mod+Ctrl+3 exec --no-startup-id bash /home/jeff/.config/.screenlayout/multi.sh
 bindsym $mod+d exec rofi -modi drun -show drun
 
 # Customs
