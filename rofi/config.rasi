@@ -1,0 +1,7 @@
+/** Configured For Applets **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
+@import "/usr/share/rofi/themes/dracula.rasi"
