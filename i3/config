@@ -18,6 +18,8 @@ bindsym $mod+Ctrl+1 exec --no-startup-id bash /home/jeff/.config/.screenlayout/l
 bindsym $mod+Ctrl+2 exec --no-startup-id bash /home/jeff/.config/.screenlayout/clamshell.sh
 bindsym $mod+Ctrl+3 exec --no-startup-id bash /home/jeff/.config/.screenlayout/multi.sh
 bindsym $mod+d exec rofi -modi drun -show drun
+bindsym $mod+End exec powermenu
+bindsym $mod+Escape exec i3lock-fancy
 
 # Customs
 new_window pixel 0
